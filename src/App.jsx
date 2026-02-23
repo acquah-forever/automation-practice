@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Hero from './components/Hero'
 import AgentFeatures from './components/AgentFeatures'
 import Collaboration from './components/Collaboration'
+import Reviews from './components/Reviews'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/hero' element={<Hero />} />
         <Route path='/agentfeatures' element={<AgentFeatures />} />
         <Route path='/collaboration' element={<Collaboration />} />
+        <Route path='/reviews' element={<Reviews />} />
       </Routes>
 
     </div>

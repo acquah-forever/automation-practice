@@ -15,19 +15,19 @@ const AgentFeatures = () => {
                 <div className='border rounded-xl p-6 space-y-3'>
                     <Bot className='w-10 h-10' />
                     <h2 className="text-m font-semibold">Autonomous Agents</h2>
-                    <h3 className="text-m text-light">Agents that plan, execute & think step-by-step.</h3>
+                    <h3 className="text-m text-light">Agents that plan, execute & think <br /> step-by-step.</h3>
                 </div>
 
                 <div className='border rounded-xl p-6 space-y-3'>
                     <Brain className='w-10 h-10' />
                     <h2 className="text-m font-semibold">Memeory Learning</h2>
-                    <h3 className="text-m text-light">Agent retain memory and improve overtime.</h3>
+                    <h3 className="text-m text-light">Agent retain memory and improve <br /> overtime.</h3>
                 </div>
 
                 <div className="border rounded-xl p-6 space-y-3">
                     <Zap className='w-10 h-10' />
                     <h2 className="text-m font-semibold">Real-time Execution</h2>
-                    <h3 className="text-m text-light">Fast responses with async task processing.</h3>
+                    <h3 className="text-m text-light">Fast responses with async task <br /> processing.</h3>
                 </div>
             </div>
 
