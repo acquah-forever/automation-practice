@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Hero from './components/Hero'
 import AgentFeatures from './components/AgentFeatures'
+import Collaboration from './components/Collaboration'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/hero' element={<Hero />} />
         <Route path='/agentfeatures' element={<AgentFeatures />} />
+        <Route path='/collaboration' element={<Collaboration />} />
       </Routes>
 
     </div>
