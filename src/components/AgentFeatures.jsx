@@ -32,7 +32,7 @@ const AgentFeatures = () => {
             </div>
 
             <div className="grid justify-items-center items-center">
-                <h1 className="mb-5 font-semibold text-center text-2xl">From idea to autonomous agent 
+                <h1 className="mb-5 font-bold text-center text-3xl">From idea to autonomous agent 
                     <br />
                     quicklyand effortlessly.</h1>
                 <p className="text-m text-center font-light">Empower your business with AI agents that optimize processes
