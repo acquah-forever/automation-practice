@@ -3,6 +3,7 @@ import {Routes,Route} from "react-router-dom"
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Hero from './components/Hero'
+import AgentFeatures from './components/AgentFeatures'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/hero' element={<Hero />} />
+        <Route path='/agentfeatures' element={<AgentFeatures />} />
       </Routes>
 
     </div>
