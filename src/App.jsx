@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import AgentFeatures from './components/AgentFeatures'
 import Collaboration from './components/Collaboration'
 import Reviews from './components/Reviews'
+import Faq from './components/Faq'
 
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
         <Route path='/agentfeatures' element={<AgentFeatures />} />
         <Route path='/collaboration' element={<Collaboration />} />
         <Route path='/reviews' element={<Reviews />} />
+        <Route path='/faq' element={<Faq />} />
+
       </Routes>
 
     </div>

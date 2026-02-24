@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import AgentFeatures from '../components/AgentFeatures'
 import Collaboration from '../components/Collaboration'
 import Reviews from '../components/Reviews'
+import Faq from '../components/Faq'
 import Rev1 from '../assets/rev1.jpg'
 import Rev2 from '../assets/rev2.jpg'
 import Rev3 from '../assets/rev3.jpg'
@@ -85,8 +86,7 @@ const Home = () => {
           name={e.name}
         />))}
       </div>
-
-
+      <Faq />
     </div>
   )
 }

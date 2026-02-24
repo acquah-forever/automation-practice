@@ -2,6 +2,7 @@ import React from 'react'
 import { ExternalLink } from 'lucide-react'
 import Link from '../assets/link.jpg'
 
+
 const Collaboration = () => {
     return (
         <div className='space-y-7 mt-20 '>
