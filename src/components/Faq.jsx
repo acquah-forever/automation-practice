@@ -24,8 +24,6 @@ const Faq = () => {
                     <br />
                     skills aren't required. You can use components as-is or customize them.</h1>
             )}
-
-
         </div>
     )
 }
