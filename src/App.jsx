@@ -7,6 +7,7 @@ import AgentFeatures from './components/AgentFeatures'
 import Collaboration from './components/Collaboration'
 import Reviews from './components/Reviews'
 import Faq from './components/Faq'
+import Price from './components/Price'
 
 
 const App = () => {
@@ -20,6 +21,8 @@ const App = () => {
         <Route path='/collaboration' element={<Collaboration />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/faq' element={<Faq />} />
+        <Route path='/price' element={<Price />} />
+
 
       </Routes>
 

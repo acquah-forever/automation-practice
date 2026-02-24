@@ -65,7 +65,7 @@ const Collaboration = () => {
 
             <div className='mt-25 space-y-10'>
                 <h1 className="font-bold text-3xl text-center">Here what out Trusted Users had to say about our AI Agents.</h1>
-                <h3 className="font-light text-m text-center">Empower your business with AI agents that optimize process <br /> and accelerate performance.</h3>
+                <h3 className="font-medium text-m text-center">Empower your business with AI agents that optimize process <br /> and accelerate performance.</h3>
             </div>
 
         </div>

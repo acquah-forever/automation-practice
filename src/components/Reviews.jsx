@@ -10,7 +10,7 @@ const Reviews = (props) => {
                         <img className='w-10 h-10 rounded-full object-cover' src={props.image} alt="un" />
                     </div>
                 </div>
-                <p className='whitespace-pre-line font-light text-sm'>{props.review}</p>
+                <p className='whitespace-pre-line font-medium text-sm'>{props.review}</p>
                 <p className='text-sm font-light'>{props.name}</p>
             </div>
 

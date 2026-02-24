@@ -6,7 +6,7 @@ const AgentFeatures = () => {
         <div className=' grid justify-items-center items-center gap-20 py-5'>
             <div className="flex flex-col justify-center items-center">
                 <hi className="mb-5 font-semibold text-4xl">Agent Features</hi>
-                <p className="text-m font-light text-center">Design AI assistants that research, plan, and execute tasks - all
+                <p className="text-m font-medium text-center">Design AI assistants that research, plan, and execute tasks - all
                     <br />
                     powered by your prompts.</p>
             </div>
@@ -35,7 +35,7 @@ const AgentFeatures = () => {
                 <h1 className="mb-5 font-bold text-center text-3xl">From idea to autonomous agent 
                     <br />
                     quicklyand effortlessly.</h1>
-                <p className="text-m text-center font-light">Empower your business with AI agents that optimize processes
+                <p className="text-m text-center font-medium">Empower your business with AI agents that optimize processes
                     <br />
                      and accelerate performance.</p>
             </div>

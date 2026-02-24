@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import AgentFeatures from '../components/AgentFeatures'
 import Collaboration from '../components/Collaboration'
 import Reviews from '../components/Reviews'
+import Price from '../components/Price'
 import Faq from '../components/Faq'
 import Rev1 from '../assets/rev1.jpg'
 import Rev2 from '../assets/rev2.jpg'
@@ -87,6 +88,7 @@ const Home = () => {
         />))}
       </div>
       <Faq />
+      <Price />
     </div>
   )
 }

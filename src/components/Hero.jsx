@@ -22,8 +22,8 @@ const Hero = () => {
             </div>
 
             <div className='mb-7 font-extralight  flex flex-col justify-center items-center'>
-                <p className='text-center'>Design AI assistants that research, plan, and execute</p>
-                <p className='text-center'>tasks - all powered by your prompts. </p>
+                <p className='text-center font-medium'>Design AI assistants that research, plan, and execute</p>
+                <p className='text-center font-medium'>tasks - all powered by your prompts. </p>
             </div>
 
             <div className='mb-20 flex flex-col space-y-3 md:flex-row justify-center items-center max-w-2xl md:w-auto md:mx-auto md:space-y-0 md:space-x-10'>
@@ -34,7 +34,7 @@ const Hero = () => {
                 </button>
             </div>
 
-            <p className='mb-10 text-base font-extralight flex justify-center items-center'>Trusted by leading brands, including - </p>
+            <p className='mb-10 text-base font-medium flex justify-center items-center'>Trusted by leading brands, including - </p>
 
             <div className='max-w-full px-6 overflow-x-hidden grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 justify-items-center'>
                 <div className='px-4 flex items-center'>
