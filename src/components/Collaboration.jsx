@@ -6,7 +6,7 @@ const Collaboration = () => {
     return (
         <div className='space-y-7 mt-20 '>
             <div className='max-w-x4l flex flex-col items-center  md:flex-row md:justify-center md:gap-20'>
-                <div className='rounded-2xl max-w-sm'>
+                <div className='rounded-2xl px-5 max-w-sm'>
                     <img className='rounded-3xl' src={Link} alt="link" />
                 </div>
 
@@ -38,13 +38,13 @@ const Collaboration = () => {
                     </div>
                 </div>
 
-                <div className='rounded-2xl max-w-sm'>
+                <div className='rounded-2xl px-5 max-w-sm'>
                     <img className='rounded-3xl' src={Link} alt="link" />
                 </div>
             </div>
 
             <div className='max-w-x4l flex flex-col items-center md:flex-row md:justify-center gap-10'>
-                <div className='rounded-2xl max-w-sm'>
+                <div className='rounded-2xl px-5 max-w-sm'>
                     <img className='rounded-3xl' src={Link} alt="link" />
                 </div>
 
@@ -62,9 +62,9 @@ const Collaboration = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='mt-25 space-y-10'>
                 <h1 className="font-bold text-3xl text-center">Here what out Trusted Users had to say about our AI Agents.</h1>
-                <h3 className="font-light text-m text-center">empower your business with AI agents that optimize process <br /> and accelerate performance.</h3>
+                <h3 className="font-light text-m text-center">Empower your business with AI agents that optimize process <br /> and accelerate performance.</h3>
             </div>
 
         </div>

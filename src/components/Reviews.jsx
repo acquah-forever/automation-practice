@@ -5,14 +5,13 @@ const Reviews = (props) => {
         <div className='border rounded-2xl p-7'>
             <div className='space-y-2'>
                 <div className='flex justify-between items-center'>
-                    <h2>{props.title}</h2>
+                    <h2 className='text-md font-bol'>{props.title}</h2>
                     <div>
                         <img className='w-10 h-10 rounded-full object-cover' src={props.image} alt="un" />
                     </div>
                 </div>
-
-                <p className='whitespace-pre-line text-light text-sm'>{props.review}</p>
-                <p>{props.name}</p>
+                <p className='whitespace-pre-line font-light text-sm'>{props.review}</p>
+                <p className='text-sm font-light'>{props.name}</p>
             </div>
 
         </div>

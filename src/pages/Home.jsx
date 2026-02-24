@@ -8,6 +8,8 @@ import Rev2 from '../assets/rev2.jpg'
 import Rev3 from '../assets/rev3.jpg'
 import Rev4 from '../assets/rev4.jpg'
 import Rev5 from '../assets/rev5.jpg'
+import Rev6 from '../assets/rev6.jpg'
+
 
 const Home = () => {
 
@@ -27,7 +29,7 @@ const Home = () => {
       image: Rev2,
       review: `"The design quality is top-notch. Perfect 
       balance between simplicity and style.
-      Highly recommend fro any..."`,
+      Highly recommend for any..."`,
       name: "-Sophia Martinez"
     },
     {
@@ -60,6 +62,7 @@ const Home = () => {
     {
       id: 6,
       title: "Founder & CEO",
+      image:Rev6,
       review: `"Brilliantly structured componenets with
       clean, modern styling. Makes development
       a joy and design updates super quick."`,
@@ -73,8 +76,7 @@ const Home = () => {
       <Hero />
       <AgentFeatures />
       <Collaboration />
-      <Reviews />
-      <div className='max-w-8xl px-25 grid justify-items-center items-center md:grid-cols-2 lg:grid-cols-3 '>
+      <div className='mt-25 max-w-8xl px-15 mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-3 '>
         {data.map((e) => (<Reviews
           key={e.id}
           title={e.title}
