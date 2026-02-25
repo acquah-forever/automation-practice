@@ -58,32 +58,32 @@ const Price = () => {
                             <p className="font-bold text-sm inline-block">Starter</p>
                         </div>
                     </div>
-                    <h1 className='font-bold text-2xl mb-3'>$19/ <span className='font-medium text-base'>month</span></h1>
-                    <p className="font-light text-md mb-7">For individuals and small teams.</p>
-                    <div className='text-center border p-2 rounded-lg'><a href="#">Get Started</a></div>
+                    <h1 className='font-bold text-2xl mb-3'>$49/ <span className='font-medium text-base'>month</span></h1>
+                    <p className="font-light text-md mb-7">For growing teams and startups.</p>
+                    <div className='text-center bg-black text-white border p-2 rounded-lg'><a href="#">Upgrade Now</a></div>
                     <div className='space-y-3 mt-4'>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Up to 10 projects</p>
+                            <p className="font-light text-sm">Unlimited AI tasks</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">10 AI tasks/moth</p>
+                            <p className="font-light text-sm">API intergration</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Basic text generation</p>
+                            <p className="font-light text-sm">Text and image outputs</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Simple chatbox access</p>
+                            <p className="font-light text-sm">Priority chat and email support</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Email support only</p>   </div>
+                            <p className="font-light text-sm">~Detailed analytics</p>   </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Community resources</p>
+                            <p className="font-light text-sm">Team collaboration</p>
                         </div>
                     </div>
                 </div>
@@ -96,8 +96,8 @@ const Price = () => {
                             <p className="font-bold text-sm inline-block">Starter</p>
                         </div>
                     </div>
-                    <h1 className='font-bold text-2xl mb-3'>$19/ <span className='font-medium text-base'>month</span></h1>
-                    <p className="font-light text-md mb-7">For individuals and small teams.</p>
+                    <h1 className='font-bold text-2xl mb-3'>$149/ <span className='font-medium text-base'>month</span></h1>
+                    <p className="font-light text-md mb-7">For enterprises and agencies.</p>
                     <div className='text-center border p-2 rounded-lg'><a href="#">Get Started</a></div>
                     <div className='space-y-3 mt-4'>
                         <div className='flex items-center space-x-3'>
