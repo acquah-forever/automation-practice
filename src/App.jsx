@@ -1,6 +1,7 @@
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Hero from './components/Hero'
 import AgentFeatures from './components/AgentFeatures'
@@ -24,10 +25,8 @@ const App = () => {
         <Route path='/faq' element={<Faq />} />
         <Route path='/price' element={<Price />} />
         <Route path='/cta' element={<CTA />} />
-
-
-
       </Routes>
+      <Footer />
 
     </div>
   )
