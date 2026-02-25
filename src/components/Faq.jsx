@@ -22,7 +22,7 @@ const Faq = () => {
                         {open === 1 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 1 && (
-                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg flex justify-between items-center text-sm sm:text-base py-2 px-1 sm:px-2'>Basic coding knowledge (HTML/CSS, Tailwind) helps, but advanced design skills aren't 
+                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg flex justify-between items-center text-sm sm:text-base py-2 px-2'>Basic coding knowledge (HTML/CSS, Tailwind) helps, but advanced design skills aren't 
                         <br />
                         required. You can use components as-is or customize them.</h1>
                     )}
@@ -35,7 +35,7 @@ const Faq = () => {
                         {open === 2 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 2 && (
-                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-1 sm:px-2'>kojo provides ready-to-use, customizable UI components. and
+                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-2'>kojo provides ready-to-use, customizable UI components. and
                             templates, saving time from developers.</h1>
                     )}
                 </div>
@@ -46,7 +46,7 @@ const Faq = () => {
                         {open === 3 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 3 && (
-                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-1 sm:px-2'>Yes, components can be intergrated with HTML, React and Next.js, Vue
+                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-2'>Yes, components can be intergrated with HTML, React and Next.js, Vue
                             and other projects using Tailwind CSS.</h1>
                     )}
                 </div>
@@ -57,18 +57,18 @@ const Faq = () => {
                         {open === 4 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 4 && (
-                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-1 sm:px-2'>There is no clear documentation on built-in collaboration features. Checks
+                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg p-3 flex justify-between items-center text-sm sm:text-base py-2 px-2'>There is no clear documentation on built-in collaboration features. Checks
                             the support system for details.</h1>
                     )}
                 </div>
 
                 <div>
                     <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between items-center' onClick={() => handleClick(5)}>
-                        <h1 className='text-base'>Can I kojo before purchasig a plan?</h1>
+                        <h1 className='text-sm sm:text-md'>Can I kojo before purchasig a plan?</h1>
                         {open === 5 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 5 && (
-                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg flex justify-between items-center text-sm sm:text-base py-2 px-1 sm:px-2'>Yes. You can try kojo with full access to all the features.</h1>
+                        <h1 className='bg-slate-200 rounded-t-none rounded-b-lg flex justify-between items-center text-sm sm:text-base py-2 px-2'>Yes. You can try kojo with full access to all the features.</h1>
                     )}
                 </div>
 
