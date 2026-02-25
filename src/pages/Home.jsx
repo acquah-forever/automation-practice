@@ -90,7 +90,9 @@ const Home = () => {
       </div>
       <Faq />
       <Price />
+      <div className='p-15 flex justify-center items-center'>
       <CTA />
+      </div>
     </div>
   )
 }
