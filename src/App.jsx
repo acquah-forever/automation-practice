@@ -8,6 +8,7 @@ import Collaboration from './components/Collaboration'
 import Reviews from './components/Reviews'
 import Faq from './components/Faq'
 import Price from './components/Price'
+import CTA from './components/CTA'
 
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/faq' element={<Faq />} />
         <Route path='/price' element={<Price />} />
+        <Route path='/cta' element={<CTA />} />
+
 
 
       </Routes>

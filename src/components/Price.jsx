@@ -30,7 +30,7 @@ const Price = () => {
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">10 AI tasks/moth</p>
+                            <p className="font-light text-sm">10 AI tasks/month</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
@@ -98,30 +98,30 @@ const Price = () => {
                     </div>
                     <h1 className='font-bold text-2xl mb-3'>$149/ <span className='font-medium text-base'>month</span></h1>
                     <p className="font-light text-md mb-7">For enterprises and agencies.</p>
-                    <div className='text-center border p-2 rounded-lg'><a href="#">Get Started</a></div>
+                    <div className='text-center border p-2 rounded-lg'><a href="#">Contactt Sales</a></div>
                     <div className='space-y-3 mt-4'>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Up to 10 projects</p>
+                            <p className="font-light text-sm">Custom AI models</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">10 AI tasks/moth</p>
+                            <p className="font-light text-sm">Team access control</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Basic text generation</p>
+                            <p className="font-light text-sm">Dedicated account manager</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Simple chatbox access</p>
+                            <p className="font-light text-sm">Secure private API</p>
                         </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Email support only</p>   </div>
+                            <p className="font-light text-sm">SLA uptime guarantee</p>   </div>
                         <div className='flex items-center space-x-3'>
                             <Check className='w-4 h-4' />
-                            <p className="font-light text-sm">Community resources</p>
+                            <p className="font-light text-sm">24/7 premium support</p>
                         </div>
                     </div>
                 </div>
