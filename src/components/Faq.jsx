@@ -15,10 +15,10 @@ const Faq = () => {
                     out our FAQ's section below. </h3>
             </div>
 
-            <div className='max-w-3xl w-full space-y-3 px-5'>
+            <div className='max-w-3xl w-full space-y-3'>
                 <div>
-                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between gap-30 items-center' onClick={() => handleClick(1)}>
-                        <h1 className='text-sm sm:text-base'>Do I need coding or design experince to use kojo?</h1>
+                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between items-center' onClick={() => handleClick(1)}>
+                        <h1 className='text-sm sm:text-md'>Do I need coding or design experince to use kojo?</h1>
                         {open === 1 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 1 && (
@@ -30,8 +30,8 @@ const Faq = () => {
 
 
                 <div>
-                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between gap-30 items-center' onClick={() => handleClick(2)}>
-                        <h1 className='text-sm sm:text-base'>What is kojo and how does it helps developers?</h1>
+                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between items-center' onClick={() => handleClick(2)}>
+                        <h1 className='text-sm sm:text-md'>What is kojo and how does it helps developers?</h1>
                         {open === 2 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 2 && (
@@ -41,8 +41,8 @@ const Faq = () => {
                 </div>
 
                 <div>
-                    <div className='bg-slate-300  p-3 rounded-b-none rounded-t-lg  flex justify-between gap-4 items-center' onClick={() => handleClick(3)}>
-                        <h1 className='text-sm sm:text-base'>Can I use kojo components in my existing project?</h1>
+                    <div className='bg-slate-300  p-3 rounded-b-none rounded-t-lg  flex justify-between items-center' onClick={() => handleClick(3)}>
+                        <h1 className='text-sm sm:text-md'>Can I use kojo components in my existing project?</h1>
                         {open === 3 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 3 && (
@@ -52,8 +52,8 @@ const Faq = () => {
                 </div>
 
                 <div>
-                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between gap-30 items-center' onClick={() => handleClick(4)}>
-                        <h1 className='text-sm sm:text-base'>Does kojo suppot team collaboration?</h1>
+                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between items-center' onClick={() => handleClick(4)}>
+                        <h1 className='text-sm sm:text-md'>Does kojo suppot team collaboration?</h1>
                         {open === 4 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 4 && (
@@ -63,8 +63,8 @@ const Faq = () => {
                 </div>
 
                 <div>
-                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between gap-30 items-center' onClick={() => handleClick(5)}>
-                        <h1 className='text-sm sm:text-base'>Can I kojo before purchasig a plan?</h1>
+                    <div className='bg-slate-300 p-3 rounded-b-none rounded-t-lg flex justify-between items-center' onClick={() => handleClick(5)}>
+                        <h1 className='text-base'>Can I kojo before purchasig a plan?</h1>
                         {open === 5 ? (<ChevronUp />) : (<ChevronDown />)}
                     </div>
                     {open === 5 && (
